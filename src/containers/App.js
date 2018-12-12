@@ -1,7 +1,18 @@
 import React, { Component } from 'react';
+import { connect} from 'react-redux';
 import logo from './logo.svg';
 import './App.css';
 
+const mapStateToProps = (state) => {
+  return {
+  }
+}
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+    //onSearchChange: (event) => dispatch(),
+  }
+}
 class App extends Component {
   render() {
     return (
@@ -25,4 +36,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default connect(mapStateToProps, mapDispatchToProps)(App);
