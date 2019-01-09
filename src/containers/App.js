@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
-import { connect} from 'react-redux';
+// import { connect} from 'react-redux';
 import './App.css';
 
-const mapStateToProps = (state) => {
-  return {
-  }
-}
+// const mapStateToProps = (state) => {
+//   return {
+//   }
+// }
 
-const mapDispatchToProps = (dispatch) => {
-  return {
-    //onSearchChange: (event) => dispatch(),
-  }
-}
+// const mapDispatchToProps = (dispatch) => {
+//   return {
+//     //onSearchChange: (event) => dispatch(),
+//   }
+// }
+
 class App extends Component {
   render() {
     return (
@@ -26,4 +27,5 @@ class App extends Component {
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(App);
+// export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default App;
