@@ -4,6 +4,7 @@
     }
   
     .Login form {
+      padding-top: 100px;
       margin: 0 auto;
       max-width: 320px;
     }
