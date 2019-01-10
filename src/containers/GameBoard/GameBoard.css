@@ -1,0 +1,5 @@
+.GameBoard {
+  display: flex;
+  width: 300px;
+  background: linear-gradient(89deg, #FF5EDF 0%, #04C8DE 100%)
+}

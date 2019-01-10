@@ -4,7 +4,7 @@ class GameBoard extends Component {
 
   render () {
     return (
-      <div>Hello</div>
+      <div className='GameBoard'></div>
     )
   }
 }
