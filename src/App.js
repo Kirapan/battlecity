@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 // import { connect} from 'react-redux';
 import Layout from './hoc/Layout/Layout';
 import Gameboard from './containers/GameBoard/GameBoard';
+import Login from './containers/Login/Login';
 
 import './App.css';
 
@@ -21,6 +22,7 @@ class App extends Component {
     return (
       <div className="App">
         <Layout>
+          <Login />
           <Gameboard />
         </Layout>
       </div>
