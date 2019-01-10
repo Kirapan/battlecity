@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 // import { connect} from 'react-redux';
+import Layout from './hoc/Layout/Layout';
+import Gameboard from './containers/GameBoard/GameBoard';
+
 import './App.css';
 
 // const mapStateToProps = (state) => {
@@ -17,11 +20,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-        </header>
+        <Layout>
+          <Gameboard />
+        </Layout>
       </div>
     );
   }
