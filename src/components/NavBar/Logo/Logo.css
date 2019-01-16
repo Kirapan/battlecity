@@ -1,4 +1,8 @@
 .Logo {
   width: 100px;
-  margin: auto;
+  max-width: 50%;
+}
+
+.Logo > img {
+  margin-top: 15px;
 }

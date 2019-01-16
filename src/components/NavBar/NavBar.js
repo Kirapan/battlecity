@@ -4,8 +4,12 @@ import './NavBar.css';
 
 const navBar = (props) => ( 
     <div className='NavBar'>
-      <div>Leader Board</div>
+      <div className='LeaderBoard'>Leader Board</div>
       <Logo />
+      <div>
+        <span>Signup</span>
+        <span>Login</span>
+      </div>
     </div>
 );
 
