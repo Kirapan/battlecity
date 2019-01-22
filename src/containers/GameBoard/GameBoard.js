@@ -5,10 +5,10 @@ import './GameBoard.css';
 
 class GameBoard extends Component {
   state = {
-    loggedIn: false
+    loggedIn: true
   }
   render () {
-    return this.state.loggedIn? (<div className='GameBoard'></div>) : <Login />
+    return this.state.loggedIn? (<div className='GameBoard'>hello</div>) : <Login />
   }
 }
 
