@@ -1,7 +1,7 @@
 import React from 'react';
-
+import './Stats.css';
 const stats = (props) => ( 
-    <div></div>
+    <div className='Stats'>stats</div>
 );
 
 export default stats;

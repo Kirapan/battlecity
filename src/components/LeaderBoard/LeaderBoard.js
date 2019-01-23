@@ -1,7 +1,9 @@
 import React from 'react';
+import './LeaderBoard.css';
+
 
 const leaderBoard = (props) => ( 
-    <div></div>
+    <div className='LeaderBoard'>leaderboard</div>
 );
 
 export default leaderBoard;

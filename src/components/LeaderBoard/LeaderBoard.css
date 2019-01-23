@@ -1,0 +1,8 @@
+.LeaderBoard {
+  height: 500px;
+  width: 20%;
+  border: 1px dashed white;
+  order: 1;
+  margin-right: 10px;
+  color: white;
+}
