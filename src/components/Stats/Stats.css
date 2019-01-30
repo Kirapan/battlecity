@@ -1,7 +1,8 @@
-.GameBoard {
+.Stats {
+  order: 3;
   height: 500px;
+  width: 15%;
   border: 1px dashed white;
-  flex: 3 0px;
-  order: 2;
+  margin-left:10px;
   color: white;
 }
