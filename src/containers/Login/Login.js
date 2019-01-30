@@ -37,12 +37,27 @@ export default class Login extends Component {
           if (user) {
             // User is signed in.
             alert(user.email + " has been signed in.");
+            // writeUserData(1, 'Michael', user.email, 'www.test.de');
+            // firebase.database().ref('users/' + user.id).set({
+              firebase.database().ref('users').set({  
+              username: 'Michael',
+              email: user.email,
+              profile_picture : 'www.test.com'
+            });
           } else {
             // No user is signed in.
             alert("no user");
           }
         });
       }
+    });
+  }
+
+  writeUserData(userId, name, email, imageUrl) {
+    firebase.database().ref('users/' + userId).set({
+      username: name,
+      email: email,
+      profile_picture : imageUrl
     });
   }
 
