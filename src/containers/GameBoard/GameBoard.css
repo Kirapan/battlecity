@@ -1,7 +1,12 @@
 .GameBoard {
-  height: 500px;
+  position: relative;
+  height: 520px;
   border: 1px dashed white;
   flex: 0 1 600px;
   order: 2;
   color: white;
+}
+
+.tankInPlay {
+  position: absolute;
 }
